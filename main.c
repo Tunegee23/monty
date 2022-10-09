@@ -40,11 +40,9 @@ int main(int argc, char *argv[])
 			execute(content, &stack, counter, file);
 		}
 		free(content);
-
 	}
 	free_stack(stack);
 	fclose(file);
 
 	return (0);
 }
-
